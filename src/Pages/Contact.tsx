@@ -24,7 +24,7 @@ export default function Contact() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '../public/Sisira-Jayanthi-Sasikumar_Resume_.pdf';  // Path to your resume file
+    link.href = '/Sisira-Jayanthi-Sasikumar_Resume_.pdf';  // Path to your resume file
     link.download = 'Sisira_Resume.pdf';  // Filename
     document.body.appendChild(link);
     link.click();
