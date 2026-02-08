@@ -1,4 +1,3 @@
-import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from '../Components/ImageWithFallBack';
 
 interface Project {
